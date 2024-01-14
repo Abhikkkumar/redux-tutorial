@@ -37,7 +37,7 @@ function loadPosts() {
     try {
       dispatch(postsPending());
       const { data } = await axios.get(
-        "https://jsonplaceholder.typicode.com/postss/5"
+        "https://jsonplaceholder.typicode.com/posts/5"
       );
 
       dispatch(postsSuccess(data));

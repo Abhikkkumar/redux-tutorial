@@ -20,7 +20,7 @@ const store = createStore(
   }),
   applyMiddleware(logger.default, thunk)
 ); // creating a store in redux.
-// 1.state must be global. that global state must be accessible everywhere. we can access it using .getState() method
+// 1.state must be global, so that global state must be accessible everywhere. we can access it using .getState() method
 
 // const history = [];
 
