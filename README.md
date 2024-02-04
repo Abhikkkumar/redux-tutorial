@@ -18,3 +18,7 @@ It is a redux tutorial with a mini project
     <li> useDispatch() -> to get access of 'dispatch' we use 'useDispatch' hook </li>
     </ol>
 </li>
+
+## Chapter 3 (react-toolkit)
+
+<li> it makes it easier to create create action, reducer and modification of states.</li>

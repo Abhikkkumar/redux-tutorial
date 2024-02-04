@@ -3,7 +3,7 @@ import { createStore, applyMiddleware, combineReducers } from "redux"; // applyM
 import logger from "redux-logger"; // redux-logger is a middleware. gives a log of all the states
 import { thunk } from "redux-thunk"; // a middleware to do api call by stopping actions by dispatch and then continuing the action
 
-//make the name of actions constant
+//make the name of actions, constant
 const increment = "account/increment";
 const decrement = "account/decrement";
 const incrementByAmount = "account/incrementByAmount";
