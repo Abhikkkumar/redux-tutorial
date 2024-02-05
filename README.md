@@ -22,3 +22,10 @@ It is a redux tutorial with a mini project
 ## Chapter 3 (react-toolkit)
 
 <li> it makes it easier to create create action, reducer and modification of states.</li>
+
+## redux-api-example
+
+<ul>
+<li> we are using asyncThunk in this module and creating a shopping cart </li>
+</ul>
+NOTE :- first start json server for "prod.json" present in this folder.
